@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 ## Installs to create from scratch
 * start with this: https://tailwindcss.com/docs/guides/vite 
 * Install `npm i react-router-dom lucide-react recharts`
+* Animations install `npm i framer-motion`
 
 ## Other setup notes
 * If you are getting errors with using test containing `'` such as `it's` then add `"react/no-unescaped-entities": "off",` to the '/eslint.config.js' rules.
