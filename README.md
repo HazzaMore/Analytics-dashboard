@@ -15,3 +15,8 @@ Currently, two official plugins are available:
 ## Other setup notes
 * If you are getting errors with using test containing `'` such as `it's` then add `"react/no-unescaped-entities": "off",` to the '/eslint.config.js' rules.
 * For issues with prop-types where they are 'missing in props validation' then add `"react/prop-types": "off",` to the same place as above.
+
+## Extra To do:
+* Make the animation delay for components passed through as a prop (so if the component is reused, or replaced it won't mess things up)
+* Link the data into a database
+* Work out how to add an average trend line to some of the graphs
